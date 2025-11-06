@@ -1,71 +1,38 @@
-/* Geral */
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    font-family: Arial, sans-serif;
-}
-
-/* Cabeçalho */
 .header {
     display: flex;
-    justify-content: space-between; /* separa logo, menu e botão */
-    align-items: center;            /* centraliza verticalmente */
-    padding: 10px 40px;
-    background-color: #f5f5f5;
+    align-items: center; /* Alinha logo, menu e botão verticalmente */
+    justify-content: space-between; /* Espaça os três blocos */
+    padding: 10px 40px; /* Dá um respiro nas bordas */
 }
 
-/* Logo */
-.logo img {
-    height: 50px;
-}
-
-/* Menu */
 .menu-itens {
     display: flex;
-    list-style: none;
-    gap: 30px; /* espaço entre os itens */
+    list-style-type: none;
+    justify-content: center;
 }
 
-.menu-itens a {
+.item {
     text-decoration: none;
-    color: #333;
-    font-weight: 600;
-    transition: color 0.3s;
+    padding: 10px;
+    display: block;
+    font-size: 50px;
 }
 
-.menu-itens a:hover {
-    color: #007bff;
+.menu-itens li {
+    margin: 2px;
+    padding: 5px;
 }
 
-/* Botão */
-.get-a-quote button {
-    background-color: #007bff;
-    color: white;
-    border: none;
+.get-a-quote{
+    background-color: #36b864;
+    border: transparent;
+    color: #ffffff;
+    border-radius: 3px;
     padding: 10px 20px;
-    border-radius: 5px;
     cursor: pointer;
-    font-weight: bold;
-    transition: background-color 0.3s;
-}
-
-.get-a-quote button:hover {
-    background-color: #0056b3;
-}
-
-/* (Opcional) cores de fundo para visualização da estrutura */
-.logo {
-    background-color: blue;
-}
-
-.menu {
-    background-color: blueviolet;
-}
-
-.get-a-quote {
-    background-color: aquamarine;
 }
