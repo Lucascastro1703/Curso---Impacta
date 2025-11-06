@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-itens {
+    display: flex;
+}
+
+.logo {
+    background-color: blue;
+}
+
+.menu{
+    background-color: blueviolet;
+}
+
+.get-a-quote {
+    background-color: aquamarine
+}
