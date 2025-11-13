@@ -80,6 +80,29 @@
 
                         <button class="btn-green">Book Now</button>
                     </div>
+
+                    <!-- Card Spring Cleaning -->
+                    <div class="card coluna coluna-lg-4">
+                        <div class="img-top">
+                            <img src="img/service2.png" alt="" class="imagem">
+                        </div>
+                        <h3 class="h3">Spring Cleaning</h3>
+                        <p class="resumo">While we can customize your cleaning plan to suit your needs, most clients schedule regular cleaning services:</p>
+
+                        <button class="btn-green">Book Now</button>
+                    </div>
+
+                    <!-- Card House Cleaning -->
+                    <div class="card coluna coluna-lg-4">
+                        <div class="img-top">
+                            <img src="img/service1.png" alt="" class="imagem">
+                        </div>
+                        <h3 class="h3">House Cleaning</h3>
+                        <p class="resumo">While we can customize your cleaning plan to suit your needs, most clients schedule regular cleaning services:</p>
+
+                        <button class="btn-green">Book Now</button>
+                    </div>
+                    
                     
                 </div>
             </div>
@@ -97,6 +120,93 @@
             <!-- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, porro. Magni optio sit doloribus quo, quas veniam sunt, quaerat accusamus minima distinctio soluta a, tempora placeat aperiam dignissimos omnis unde. -->
         </div>
     </div>
+    <script src="js/introducao.js"></script>
 </body>
+
+    <script>
+        var nome;
+        var valorCurso = 550.42;
+        nome = 'Impata';
+
+        // console.log(valorCurso + 10.00);
+        // console.log(valorCurso - 10.00);
+        // console.log(valorCurso / 10.00);
+        // console.log(valorCurso * 10.00);
+
+        var idade = 10;
+        var soma;
+        soma = --idade// console.log(soma)
+
+        /* Concatenação e Interpolação */
+        var firstName = "Camila";
+        var lastName = "da Silva";
+
+        var nomeCompletoC = firstName + ' ' + lastName;
+        var nomeCompletoI = `Nome: ${firstName} ${lastName}`;
+        // console.log(nomeCompletoI);
+
+
+        /* Operadores relacionais */
+        // Operators: ==, ===, !=, !==, >=, >, <, <=
+        var val1 = +'10';
+        var val2 = 10;
+        var comparar = val1 >= val2;
+        //console.log(comparar);
+
+        /*Truthy e Falsy */
+        var contrato = 'Yes';
+        //console.log(!contrato)
+
+
+        /* Estrutura de seleção */
+        /*
+            || = OU
+            && = E
+            ! = Não
+        */
+        var notaAluno = 8;
+        var nomeAluno = "Paulo Enrique"
+        var faltas = 10;
+
+        // se nota >= 7 aprovado e faltas <= 5
+        // se menor que 5 reprovado
+        // se estiver >=5 recuperação
+
+        //if(notaAluno >= 7 && !(faltas <=5)) {
+        //   console.log('Aprovado')
+        //} 
+        //else if(notaAluno >= 5 && faltas<=5) {
+        //    console.log('Recuperação')
+        //}
+        //else{
+        //    console.log('Reprovado')
+        //}
+
+        /*Operador Ternário */
+        var resultado;
+
+        resultado = notaAluno >= 7 ? 'Aprovado' : 'Reprovado';
+        // console.log(resultado);
+
+    var nomeCliente = prompt('Digite o nome do cliente')
+
+        console.log("Nome do cliente: " + nomeCliente)
+
+    var nomeProduto = prompt('Digite o nome do produto');
+
+        console.log("Produto: " + nomeProduto)
+
+    var valorUnitario = prompt('Digite a valor por unidade')
+
+        console.log("Valor Unitário: " + valorUnitario)
+
+    var quantidade = prompt('Digite a quantidade')
+
+        console.log("Total da compra: " + quantidade * valorUnitario)
+
+        console.log("Obrigado e volte sempre")
+
+
+    </script>
 
 </html>
