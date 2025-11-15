@@ -188,18 +188,60 @@
         resultado = notaAluno >= 7 ? 'Aprovado' : 'Reprovado';
         // console.log(resultado);
 
-    var nomeCliente = prompt('Digite o nome do cliente')
-    var nomeProduto = prompt('Digite o nome do produto');
-    var valorUnitario = prompt('Digite a valor por unidade')
-    var quantidade = prompt('Digite a quantidade')
+        /* Estrutura Léxica */
+        /* São conjuntos de regras específicas da linguagem JS*/
+        //Case sensitive
 
+        /* Let para criação de variáveis */
+        let contratoAluguel = 'Fechado';
+        contratoAluguel = 'Aberto'
+
+        /* Const, para criação de constantes */
+        const pi = 3.41;
+        //console.log(contratoAluguel);
+
+        /* Array */
+        //const dadosPessoais = [4000, 5000, 8552, 5888, 6200, 4000];
+
+        // console.log(dadosPessoais.length);
+
+        /* Estrutura de repetição - Laços */
+
+
+        //for(let interacao = 0; interacao < dadosPessoais.length; interacao++) {
+
+
+        //    if (dadosPessoais[interacao] == 6200){
+        //        result.push(dadosPessoais[interacao])
+        //        continue;
+        //    }
+
+        //  console.log(dadosPessoais[interacao]);
+        // }
+
+        //let interacao = 0;
+
+        //while(interacao < 10) {
+        //    console.log('-------')
+        //    console.log(interacao);
+
+        //    interacao++;
+        //}
+
+        var nomeProduto = prompt('Digite o nome do produto')  
+        var quantidade = prompt('Digite a quantidade')
+        var valorUnitario = prompt('Digite a valor por unidade')     
+        var nomeCliente = prompt('Digite o nome do cliente')
+        var totalCompra = valorUnitario * quantidade
+        var totalImposto = totalCompra * 0.2
+    
 
         console.log("Nome do cliente: " + nomeCliente)
         console.log("Produto: " + nomeProduto)
         console.log("Valor Unitário: " + valorUnitario)
-        console.log("Total da compra: " + quantidade * valorUnitario)
-        console.log("Obrigado e volte sempre")
-
+        console.log("Total da compra: " + totalCompra + totalCompra * 0.2)
+        console.log("Total de imposto: " + totalImposto)
+        console.log("Obrigado e volte sempre")  
 
     </script>
 
